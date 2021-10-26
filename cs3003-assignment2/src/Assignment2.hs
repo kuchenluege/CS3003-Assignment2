@@ -23,6 +23,6 @@ runLengthEncode :: [Char] -> [RunLength]
 palindrome :: [Char] -> Bool
 
 ------------------------------------------------
--- quicksort
+-- mergesort
 ------------------------------------------------
-quicksort :: (Ord a) => (a -> a -> Bool) -> [a] -> [a]
+mergesort :: (Ord a) => (a -> a -> Bool) -> [a] -> [a]
